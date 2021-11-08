@@ -1,0 +1,119 @@
+*{
+    margin: 0;}
+#Fon{width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba( 0, 0, 0, 0.5)),
+    url("./photo1636183587.jpeg") center center no-repeat;
+background-size: cover;}
+.box{display: flex;
+flex-wrap: wrap;
+flex-direction: column;}
+
+/*Navigasion conteiner*/
+#one{display: flex;
+justify-content: space-around;}
+#one{color: white;
+font-size: 25px;
+line-height: 2;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 100%;
+height: 200px;
+}
+#spisok{list-style-type: none;
+line-height: 2;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.punkt{display:inline;
+font-size: 14px;
+margin-right: 20px;
+}
+.punkt:hover{font-size: 17px;}
+a{text-decoration: none;
+color: white;}
+
+/*Welcome conteiner*/
+#two{display: flex;
+flex-direction: column;
+line-height: 2.3;
+font-family:Georgia, 'Times New Roman', Times, serif}
+.welcome2{color: white;
+text-align: center;
+}
+#knop{padding-left:620px;
+padding-top: 20px;}
+#knopka{border: 1px solid white;   
+width: 120px;
+height: 35px;
+}
+#knopka:hover{background-color: thistle;}
+#start:hover{color: tomato;}
+
+/* Two page */
+#three{display: flex;
+flex-direction: column;
+line-height: 5;
+color: rgb(88, 87, 87);
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{align-self: center;}
+#four{display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.point{display: flex;    
+justify-content: center;
+align-items: center;
+width: 95px;
+height: 95px;
+border: 2px solid grey;
+border-radius: 50%;
+color: rgb(218, 74, 18);
+font-size: 45px;
+margin-top: 25px;}
+.point:hover{background-color: rgb(218, 74, 18);
+color: white;
+border:2px solid rgb(218, 74, 18);}
+.inform{width: 300px;
+color: rgb(88, 87, 87);
+}
+#five{display: flex;
+justify-content: space-around;
+flex-direction: row;
+margin-top: 40px;
+text-align: center;}
+.text{padding-top: 25px;}
+
+/* Footer */
+#six{
+background-color:rgb(190, 31, 10);
+margin-top: 100px;
+height: 300px;
+}
+.bird{display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+border: 2px solid white;
+border-radius: 50%;
+color: white;
+margin-left: 20px;
+}
+.bird:hover{
+color:rgb(190, 31, 10) ;
+background-color: white;
+}
+#end{display: flex;
+justify-content: center;
+align-self:center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 65px;}
+#seven{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 90px;
+}
