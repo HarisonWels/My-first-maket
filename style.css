@@ -40,8 +40,10 @@ font-family:Georgia, 'Times New Roman', Times, serif}
 .welcome2{color: white;
 text-align: center;
 }
-#knop{padding-left:620px;
-padding-top: 20px;}
+#knop{display: flex;
+justify-content: center;
+align-self: center;
+padding-top: 10px;}
 #knopka{border: 1px solid white;   
 width: 120px;
 height: 35px;
